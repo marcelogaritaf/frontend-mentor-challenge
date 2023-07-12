@@ -1,0 +1,27 @@
+.form label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.form input{
+    display: inline-block;
+    width: 85%;
+    border-radius: 8px ;
+    border: 1px solid rgba(182, 181, 181, 0.918);
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+button{
+    width: 93%;
+    padding: 10px;
+    border-radius: 8px ;
+    background-color: var(---dark-white);
+    color: var(---white);
+    border: none;
+    cursor: pointer;
+    transition: background 0.8s ease, box-shadow 0.4s ease-in-out;
+}
+button:hover{
+    background: linear-gradient(90deg, rgba(228,79,160,1) 29%, rgba(240,143,68,1) 81%);
+    box-shadow: 5px 5px 5px 1px rgba(247, 158, 207, 0.712);
+}

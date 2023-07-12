@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400, 700;
+}
+:root{
+    ---primary:hsl(4,100%,67%);
+    ---secundary:   hsl(234, 29%, 20%);
+    ---dark-white:  hsl(235, 18%, 26%);
+    ---grey: hsl(231, 7%,60%);
+    ---white:hsl(0, 0%, 100%);
+}
+p, ul>li{
+    font-size: 13px;
+}
+h1{
+    color: var(---dark-white);
+}
+p, li{
+    color: var(---dark-white);
+}
+label{
+    font-size: 11px;
+}
