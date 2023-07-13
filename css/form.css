@@ -1,6 +1,12 @@
 .form label{
     display: inline-block;
     margin-bottom: 10px;
+    margin-right: 78px;
+}
+.form .alert{
+    margin-right: 0;
+    color: var(---primary);
+    visibility: hidden;
 }
 .form input{
     display: inline-block;
@@ -24,4 +30,13 @@ button{
 button:hover{
     background: linear-gradient(90deg, rgba(228,79,160,1) 29%, rgba(240,143,68,1) 81%);
     box-shadow: 5px 5px 5px 1px rgba(247, 158, 207, 0.712);
+}
+@media  screen and (max-width:550px){
+    .form label{
+        margin-right: 150px;
+    }
+    button:active{
+        background: linear-gradient(90deg, rgba(228,79,160,1) 29%, rgba(240,143,68,1) 81%);
+        box-shadow: 5px 5px 5px 1px rgba(247, 158, 207, 0.712);
+    }
 }

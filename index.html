@@ -22,13 +22,16 @@
                 <li>Measuring to ensure updates are a success</li>
                 <li>And much more!</li>
             </ul>
-            <form class="form">
-                <label><b>Email address</b></label><br>
-                <input type="text" placeholder="email@company.com"><br>
-                <button class="btn">Subscribe to monthly newsletter</button>
+            <form class="form" id="formulario">
+                <label><b>Email address</b></label><label class="alert">Valid email requierd</label><br>
+                <input id="email" type="text" placeholder="email@company.com"><br>
+                <button id="btn" class="btn">Subscribe to monthly newsletter</button>
             </form>
         </main>
-        <img src="assets/img/illustration-sign-up-desktop.svg" alt="imagen de referencia">
+        <div class="imagen-desktop">
+            <img src="assets/img/illustration-sign-up-mobile.svg" alt="">
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

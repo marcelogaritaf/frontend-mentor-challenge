@@ -1,18 +1,24 @@
 body{
     background-color:var(---secundary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     background-color: var(---white);
-    width: 85%;
+    width: 600px;
     height: 50%;
     position: relative;
     border-radius: 20px;
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
 }
-.container img{
+.container .imagen-desktop img{ 
     width: 100%;
+    content: url(../assets/img/illustration-sign-up-desktop.svg);
 }
 .main{
     padding: 15px;
@@ -26,4 +32,25 @@ body{
 .main li{
     padding-bottom: 7px;
     padding-left: 5px;
+}
+@media  screen and (max-width:550px) {
+    body{
+        background-color: var(---white);
+        height: 100%;
+        margin: 0;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .container .imagen-desktop{
+        width: 100%;
+        height: 50%;
+        content: url(../assets/img/illustration-sign-up-mobile.svg);
+    }
+    
 }
