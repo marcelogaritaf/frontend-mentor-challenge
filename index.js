@@ -16,6 +16,7 @@ btn.addEventListener("click", (e) => {
     emailInput.style.border = "1px solid rgba(182, 181, 181, 0.918)";
     container.classList.add("hide");
     success.classList.remove("hide");
+    document.querySelector(".success p b").textContent = emailInput.value;
   }
 });
 btn2.addEventListener("click", (e) => {
